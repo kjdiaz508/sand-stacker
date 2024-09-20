@@ -1,0 +1,26 @@
+*, *::before, *::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    background-color: antiquewhite;
+}
+
+main {
+    background-color: white;
+    max-width: 800px;
+}
+
+canvas {
+    width: 400px;
+    height: 600px;
+}

@@ -1,2 +1,2 @@
 # sand-tetris
-A tetris game, but the pieces are made of sand.
+A falling block game, but the pieces are made of sand.
