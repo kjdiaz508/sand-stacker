@@ -16,11 +16,25 @@ body {
 }
 
 main {
-    background-color: white;
+    display: flex;
+    gap: 20px;
     max-width: 800px;
 }
 
 canvas {
-    width: 400px;
-    height: 600px;
+    background-color: gainsboro;
+    border-style: inset;
+    border-width: 2px;
+}
+
+#sidebar {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#sidebar h2 {
+    text-align: center;
+    margin: 20px;
 }
